@@ -5,29 +5,25 @@ const app = express();
 const students = [
   {
     id: 1,
-    name: "Eman",
+    name: "menna",
     city: "sadat",
   },
   {
     id: 2,
-    name: "Ahmed",
-    city: "Tanta",
+    name: "yasser",
+    city: "sadat",
   },
   {
     id: 3,
-    name: "Maha",
+    name: "mohamed",
     city: "Menia",
   },
   {
     id: 4,
-    name: "Ali",
+    name: "mostafa",
     city: "Cairo",
   },
-  {
-    id: 5,
-    name: "Mohamed",
-    city: "Tanta",
-  },
+
 ];
 
 const studentsFunction = (request, response) => {
